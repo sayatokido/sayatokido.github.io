@@ -48,7 +48,7 @@
     <!--<script type="text/javascript">
       if (document.images) {
         var avatar = new Image();
-        avatar.src = '/imgs/avatar.jpg'
+        avatar.src = '/imgs/logo/logo.jpg'
         var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
         var previewsPreLoad = []
         for(var i = 0; i < length; i++) {
@@ -82,18 +82,17 @@
             </button>
             <a href="http://www.tokidosaya.top">
                 
+                <!-- 这里background使用imgs/${logo_image}(路径文件名) -->
                 <style>
                     #gal-header .navbar-brand {
-                        height: 54px;
-                        line-height: 24px;
-                        font-size: 28px;
-                        opacity: 1;
-                        background-color: rgba(0,0,0,0);
-                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+                        width: 200px;
+                        height: 50px;
+                        display: block;
+                        background: url('/imgs/logo/logo.jpg') no-repeat;
                     }
                 </style>
-                <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">galgamesite</div>
+                    
+                <div class="navbar-brand"></div>
                 
             </a>
         </div>
@@ -195,7 +194,7 @@
                 <a href="/2020/06/07/hello-world/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview1.jpg" alt="Hello World">
+                        <img src="/imgs/preview/preview2.jpg" alt="Hello World">
                     </div>
                     <div class="info">
                         
@@ -229,7 +228,7 @@
             <p style="text-align: center;">
                 <a href="/2020/06/07/hello-world/">
                     
-                    <img src="/imgs/preview/preview1.jpg" alt="Hello World">
+                    <img src="/imgs/preview/preview3.jpg" alt="Hello World">
                 </a>
             </p>
         </div>
@@ -290,7 +289,7 @@
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
-            <img src="/imgs/avatar.jpg" width="140" height="140"
+            <img src="/imgs/logo/logo.jpg" width="140" height="140"
                  alt="个人头像" class="author-image">
             <p class="author-description"><p>gal</p>
 </p>
@@ -371,10 +370,6 @@
                 </li>
                 
                 
-                <li>
-                    <a href="/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
-                </li>
-                
             </ul>
             <div class="tab-content">
                 
@@ -399,22 +394,6 @@
     
 </div>
                 
-                
-                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
-    
-    <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
-    </li>
-    
-    <li>
-        <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
-    </li>
-    
-    <li>
-        <a href="https://www.zhihu.com/people/aonosora/activities" target="_blank">知乎</a>
-    </li>
-    
-</div>
                 
             </div>
         </div>
